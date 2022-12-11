@@ -1,5 +1,3 @@
-## Github actions 编译配置教程
-
 ### 1.Fork 本项目
 
 [Fork 本项目](https://github.com/tw93/Pake/fork)
