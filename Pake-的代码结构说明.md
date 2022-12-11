@@ -1,3 +1,5 @@
+### 代码树结构
+
 ```bash
 ├── app.csv
 ├── bin
@@ -25,6 +27,7 @@
 └── tsconfig.json
 ```
 
+### 文件说明
 - app.csv：用于 bash/bat 命令批量替换打包。
 - bin：采用 TypeScript 编写，为 pake-cli，即 pake 命令行打包工具的源码，可以使用`npm run cli:build`来生成最终配置文件`dist\cli.js`。
 - cli.js：pake-cli 的入口文件，该文件调用`dist\cli.js`文件，基本不用修改，可以忽略。
