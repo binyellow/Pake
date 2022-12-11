@@ -1,14 +1,14 @@
-# Github actions 编译配置教程
+## Github actions 编译配置教程
 
-## 1.Fork 本项目
+### 1.Fork 本项目
 
 [Fork 本项目](https://github.com/tw93/Pake/fork)
 
-## 2.前往 actions 页面启用 GitHub actions
+### 2.前往 actions 页面启用 GitHub actions
 
 ![image-20221205230324046](https://gw.alipayobjects.com/zos/k/pake/assets/image-20221205230324046.png)
 
-## 3.修改 app.csv 文件
+### 3.修改 app.csv 文件
 
 ![image-20221205230432205](https://gw.alipayobjects.com/zos/k/pake/assets/image-20221205230432205.png)
 
@@ -18,7 +18,7 @@
 
 格式为：`Linux下应用名称,Mac和Windows下应用名称,中文名称,网址`，注意使用英文逗号分隔
 
-## 4.上传图标
+### 4.上传图标
 
 - 上传.icns 文件至`/src-tauri/icons`目录下（必须）
 - 上传.ico 和.png 文件至`/src-tauri/png`目录下（如果使用脚本自动转换可以跳过此步）
@@ -35,7 +35,7 @@
 >
 > 转换完成后别忘了将对应文件上传
 
-## 5.更改配置文件（可选，用于进一步自定义编译好的程序）
+### 5.更改配置文件（可选，用于进一步自定义编译好的程序）
 
 前往`/src-tauri/`目录，修改**tauri.conf.json**文件
 
@@ -43,7 +43,7 @@
 
 ![image-20221206112931624](https://gw.alipayobjects.com/zos/k/pake/assets/image-20221206112931624.png)
 
-## 6.发布以开始运行自动编译
+### 6.发布以开始运行自动编译
 
 - 点击前往 Releases 页面
 
