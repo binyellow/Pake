@@ -42,7 +42,7 @@
 - src-tauri/Cargo.toml：cargo 包依赖配置文件，用于管理各个 crate 版本信息，基本不用修改，可忽略。
 - src-tauri/icons：储存了一系列 icns 格式的图标文件，适用于 MacOS 应用图标。
 - src-tauri/png：由上面的 icons 文件夹生成，储存了 ico 与 png 格式文件，适用于 Linux/Windows 的应用图标。
-- src-tauri/src/main.rc：主程序文件，需要修改程序，跨平台移植方案，重点修改这个。
+- src-tauri/src/main.rs：主程序文件，需要修改程序，跨平台移植方案，重点修改这个。
 - src-tauri/src/pake.js：主程序文件配套的 js 代码，用于添加快捷键监听，页面渲染效果等等。
 - src-tauri/tauri.conf.json：主配置文件，用于控制包名，版本号，打开链接，窗口大小等等。
 - src-tauri/tauri.linux.conf.json：Linux 平台编译时用到的配置文件，包含 Linux 专用图标，维护者，二进制格式，映射相关等等。
