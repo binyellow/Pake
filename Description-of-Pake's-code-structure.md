@@ -42,7 +42,7 @@
 - src-tauri/Cargo.toml：The cargo package depends on the configuration file, which is used to manage the information of various crate versions. It basically does not need to be modified and can be ignored.
 - src-tauri/icons：A series of icon files in icns format are stored, which are suitable for MacOS application icons.
 - src-tauri/png：Generated from the icons folder above, it stores ico and png files, which are applicable to Linux/Windows application icons.
-- src-tauri/src/main.rc：The main program file needs to be modified. The cross platform migration scheme focuses on this.
+- src-tauri/src/main.rs：The main program file needs to be modified. The cross platform migration scheme focuses on this.
 - src-tauri/src/pake.js：The js code matched with the main program file is used to add shortcut key monitoring, page rendering effects, and so on.
 - src-tauri/tauri.conf.json：The main configuration file is used to control the package name, version number, open link, window size, etc.
 - src-tauri/tauri.linux.conf.json：The configuration file used when compiling the Linux platform, including Linux specific icons, maintainers, binary formats, mapping, etc.
