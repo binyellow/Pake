@@ -33,13 +33,11 @@
 >
 > 转换完成后别忘了将对应文件上传
 
-### 5.更改配置文件（可选，用于进一步自定义编译好的程序）
+### 5.更改配置文件（可选，用于进一步自定义编译好的程序，建议跳过）
 
-前往`/src-tauri/`目录，修改**tauri.conf.json**文件
+前往`/src-tauri/`目录，修改**tauri.conf.json**文件。如果需要修改图标配置（**强烈不推荐修改，会导致批量打包功能失效**），则可以根据你具体的系统来修改，例如修改linux系统的应用图标，可以进入tauri.linux.conf.json文件修改"icon"对应的图标路径。
 
-参考下面图片自定义配置，**推荐修改带星号的内容**，其他可以使用默认
-
-![image-20221206112931624](https://gw.alipayobjects.com/zos/k/pake/assets/image-20221206112931624.png)
+![image](https://user-images.githubusercontent.com/28218658/210191834-ce7bdae3-2ab7-4552-9f77-23c16efeabf3.png)
 
 ### 6.发布以开始运行自动编译
 
