@@ -35,9 +35,11 @@
 
 ### 5.更改配置文件（可选，用于进一步自定义编译好的程序，建议跳过）
 
-前往`/src-tauri/`目录，修改**tauri.conf.json**文件。如果需要修改图标配置（**强烈不推荐修改，会导致批量打包功能失效**），则可以根据你具体的系统来修改，例如修改linux系统的应用图标，可以进入tauri.linux.conf.json文件修改"icon"对应的图标路径。
+前往`/src-tauri/`目录，修改**tauri.conf.json**文件。红框内可以修改，蓝框内不建议修改，修改会导致批量打包失效。
 
-![image](https://user-images.githubusercontent.com/28218658/210191834-ce7bdae3-2ab7-4552-9f77-23c16efeabf3.png)
+如果需要修改图标配置（**强烈不推荐修改，会导致批量打包功能失效**），则可以根据你具体的系统来修改，例如修改linux系统的应用图标，可以进入tauri.linux.conf.json文件修改"icon"对应的图标路径。
+
+![image](https://user-images.githubusercontent.com/28218658/210192256-972149df-ee45-48a4-9575-2b1da1237d47.png)
 
 ### 6.发布以开始运行自动编译
 
