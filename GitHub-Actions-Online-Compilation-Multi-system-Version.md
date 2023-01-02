@@ -33,13 +33,15 @@ The format is: `Linux application name, Mac and Windows application name, Chines
 >
 > Don't forget to upload the corresponding file after the conversion is complete
 
-### 5. Change the configuration file (optional, used to further customize the compiled program)
+### 5. Change the configuration file (optional, used to further customize the compiled program，suggest to ignore)
 
 Go to the `/src-tauri/` directory and modify the **tauri.conf.json** file
 
-Refer to the picture below to customize the configuration. **It is recommended to modify the content with an asterisk**. Others can use the default
+It can be modified in the red box, and it is not recommended to modify in the blue box, and the modification will cause the batch packaging to fail。
 
-![image-20221206113351850](https://gw.alipayobjects.com/zos/k/pake/assets/image-20221206113351850.png)
+If you need to modify the icon configuration (**strongly not recommended, it will cause the batch packaging function to fail**), you can modify it according to your specific system, for example, to modify the application icon of the linux system, you can enter tauri.linux.conf.json The file modifies the icon path corresponding to "icon".
+
+![image](https://user-images.githubusercontent.com/28218658/210192256-972149df-ee45-48a4-9575-2b1da1237d47.png)
 
 ### 6. Publish to start running automatic compilation
 
