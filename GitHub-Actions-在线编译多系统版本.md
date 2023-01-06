@@ -1,6 +1,6 @@
 ### 1.Fork 本项目
 
-[Fork 本项目](https://github.com/tw93/Pake/fork)
+[点击这里](https://github.com/tw93/Pake/fork)
 
 ### 2.前往 actions 页面启用 GitHub actions
 
