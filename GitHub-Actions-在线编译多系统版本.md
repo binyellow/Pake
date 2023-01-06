@@ -29,19 +29,11 @@
 | app_256.ico | 256\*256 的 ico 图标 |
 | app_512.png | 512\*512 的 png 图片 |
 
-> 你也可以直接 git 整个项目到本地，使用项目根目录下的 icns2png.py 文件批量将.icns 文件转换成.ico 和.png 文件（.icns 文件是必须的）
->
+> 你也可以直接 git 整个项目到本地，使用项目根目录下的 icns2png.py 文件批量将.icns 文件转换成.ico 和.png 文件（.icns 文件是必须的，可去 [macosicons](https://macosicons.com/#/) 下载）
+
 > 转换完成后别忘了将对应文件上传
 
-### 5.更改配置文件（可选，用于进一步自定义编译好的程序，建议跳过）
-
-前往`/src-tauri/`目录，修改**tauri.conf.json**文件。红框内可以修改，蓝框内不建议修改，修改会导致批量打包失效。
-
-如果需要修改图标配置（**强烈不推荐修改，会导致批量打包功能失效**），则可以根据你具体的系统来修改，例如修改linux系统的应用图标，可以进入tauri.linux.conf.json文件修改"icon"对应的图标路径。
-
-![image](https://user-images.githubusercontent.com/28218658/210192256-972149df-ee45-48a4-9575-2b1da1237d47.png)
-
-### 6.发布以开始运行自动编译
+### 5.发布以开始运行自动编译
 
 - 点击前往 Releases 页面
 
