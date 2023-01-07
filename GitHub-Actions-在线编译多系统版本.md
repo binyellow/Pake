@@ -4,17 +4,15 @@
 
 ### 2.前往 actions 页面启用 GitHub actions
 
-![image-20221205230324046](https://gw.alipayobjects.com/zos/k/pake/assets/image-20221205230324046.png)
+![image-20221205230324046](https://cdn.fliggy.com/upic/oLh5MY.png)
 
 ### 3.修改 app.csv 文件
 
-![image-20221205230432205](https://gw.alipayobjects.com/zos/k/pake/assets/image-20221205230432205.png)
+![image-20221205230432205](https://cdn.fliggy.com/upic/yT0k9N.png)
 
-修改 app.csv 文件，自行将第二行以后的内容替换成自定义内容
+第二行以后的内容替换成自定义内容，格式为：`Linux下应用名称,Mac和Windows下应用名称,中文名称,网址`，注意使用英文逗号分隔
 
-![image-20221205230553980](https://gw.alipayobjects.com/zos/k/pake/assets/image-20221205230553980.png)
-
-格式为：`Linux下应用名称,Mac和Windows下应用名称,中文名称,网址`，注意使用英文逗号分隔
+![image-20221205230553980](https://cdn.fliggy.com/upic/lKRei1.png)
 
 ### 4.上传图标
 
@@ -56,8 +54,8 @@
 - 填写标题和内容（可选）
 - 如果不是在`master`分支修改，需要在 target 下拉栏选择对应分支
 - 点击**Publish release**
-- 此时，前往 actions 页面，确保出现新 workflows
+- 此时，前往 actions 页面，确保出现新 workflows，此处只需要看 Build App 这个即可
 
-![image-20221205234306770](https://gw.alipayobjects.com/zos/k/pake/assets/image-20221205234306770.png)
+![image-20221205234306770](https://cdn.fliggy.com/upic/uwPGFk.png)
 
 在编译完成后，即可在 release 页面看到编译完成后生成的文件（编译大约需要 10-30 分钟）
