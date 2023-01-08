@@ -15,21 +15,17 @@
 ![image-20221205230553980](https://cdn.fliggy.com/upic/lKRei1.png)
 
 ### 4.上传图标
+- 推荐用 <https://icon-icons.com/zh/> ，生成 .icns、.ico、.png图标
+- 上传.icns 文件至`/src-tauri/icons`目录下（必须，打包mac应用）
+- 上传.ico 和.png 文件至`/src-tauri/png`目录下（打包windows/linux是需要的）
 
-- 上传.icns 文件至`/src-tauri/icons`目录下（必须）
-- 上传.ico 和.png 文件至`/src-tauri/png`目录下（如果使用脚本自动转换可以跳过此步）
-
-**注意：需要两个.ico 文件和一个.png 文件，参考下表**
+**注意：需要两个.ico 文件和一个.png 文件，参考下表，命名和自己的小写命名一致即可**
 
 | 文件名称    | 说明                 |
 | ----------- | -------------------- |
 | app_32.ico  | 32\*32 的 ico 图标   |
 | app_256.ico | 256\*256 的 ico 图标 |
 | app_512.png | 512\*512 的 png 图片 |
-
-> 你也可以直接 git 整个项目到本地，使用项目根目录下的 icns2png.py 文件批量将.icns 文件转换成.ico 和.png 文件（.icns 文件是必须的，可去 [macosicons](https://macosicons.com/#/) 下载）
-
-> 转换完成后别忘了将对应文件上传
 
 ### 5.发布以开始运行自动编译
 
