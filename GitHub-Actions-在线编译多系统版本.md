@@ -3,8 +3,9 @@
 [点击这里](https://github.com/tw93/Pake/fork)
 
 ### 2.前往 actions 页面启用 GitHub actions
+- 进入项目settings,Actions,Genneral,Workflow permissions,勾选"Read and write permissions"与“Allow GitHub Actions to create and approve pull requests”，可以通过链接`https://github.com/[你的用户名]/Pake/settings/actions`快速进入设置。
 
-![image-20221205230324046](https://cdn.fliggy.com/upic/oLh5MY.png)
+![image](https://user-images.githubusercontent.com/28218658/211955222-812a8807-1c1d-49ae-a144-e9fe6e6e9fe9.png)
 
 ### 3.修改 app.csv 文件
 
