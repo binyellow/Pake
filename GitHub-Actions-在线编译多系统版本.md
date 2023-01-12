@@ -11,7 +11,7 @@
 
 ![image-20221205230432205](https://cdn.fliggy.com/upic/yT0k9N.png)
 
-第二行以后的内容替换成自定义内容，格式为：`Linux下应用名称,Mac和Windows下应用名称,中文名称,网址`，注意使用英文逗号分隔，并且linux包名列必须为小写，或者小写-小写这种格式。
+第二行以后的内容替换成自定义内容，格式为：`Linux下应用名称,Mac和Windows下应用名称,中文名称,网址`，注意使用英文逗号分隔，`并且linux包名列必须为小写，或者小写-小写这种格式`。
 
 ![image-20221205230553980](https://cdn.fliggy.com/upic/lKRei1.png)
 
