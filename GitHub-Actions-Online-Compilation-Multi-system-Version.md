@@ -14,7 +14,7 @@ Modify the app.csv file and replace the content after the second line with custo
 
 ![image-20221205230553980](https://gw.alipayobjects.com/zos/k/pake/assets/image-20221205230553980.png)
 
-The format is: `Linux application name, Mac and Windows application name, Chinese character name, URL`, pay attention to use English commas to separate, and **the linux package name must be in lowercase or lowercase-lowercase format**.
+The format is: `Linux application name, Mac and Windows application name, Chinese character name, URL`, pay attention to use English commas to separate, and `the linux package name must be in lowercase or lowercase-lowercase format`.
 
 ### 4. Upload icon
 
