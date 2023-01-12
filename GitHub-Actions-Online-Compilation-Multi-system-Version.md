@@ -3,7 +3,7 @@
 [Fork this project](https://github.com/tw93/Pake/fork)
 
 ### 2. Go to the actions page to enable GitHub actions
-- Enter the project settings, Actions, Genneral, Workflow permissions, and check "Read and write permissions" and "Allow GitHub Actions to create and approve pull requests", you can use url https://github.com/[YourUserName]/Pake/settings/actions to quickly enter the settings.
+- Enter the project settings, Actions, Genneral, Workflow permissions, and check "Read and write permissions" and "Allow GitHub Actions to create and approve pull requests", you can use url `https://github.com/[YourUserName]/Pake/settings/actions` to quickly enter the settings.
 ![image](https://user-images.githubusercontent.com/28218658/211955296-b734f7bb-78e4-4cb4-9dc0-824850344e2b.png)
 
 ### 3. Modify the app.csv file
