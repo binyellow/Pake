@@ -1,3 +1,1 @@
-Welcome to the Pake wiki!
-
-Please see the navigation directory on the right.
+**This is navigated from Readme of Pake, please see the navigation directory on the right.**
