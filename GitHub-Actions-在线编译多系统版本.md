@@ -38,7 +38,7 @@
 
 - 点击前往 Releases 页面
 
-![image-20221205233722029](https://gw.alipayobjects.com/zos/k/pake/assets/image-20221205233722029.png)
+![](https://cdn.fliggy.com/upic/rkxpzA.png)
 
 - 点击**Create a new release**
 
