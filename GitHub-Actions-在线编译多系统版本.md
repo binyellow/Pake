@@ -28,11 +28,15 @@
 | app_256.ico | 256\*256 的 ico 图标 |
 | app_512.png | 512\*512 的 png 图片 |
 
-### 5.发布以开始运行自动编译
+### 5. 高级配置
+可以找到 `src-tauri/tauri.conf.json` 这个文件，这3个字段可以修改。
+1. transparent：假如你的网页没有做顶部标题栏适配，建议改成 `false`，这样会正常一些。
+2. width：窗口的宽度，觉得太长太窄可以修改
+3. height：窗口的高度，觉得太高太矮可以修改
+
+### 6.发布以开始运行自动编译
 
 - 点击前往 Releases 页面
-
-![image-20221205233624044](https://gw.alipayobjects.com/zos/k/pake/assets/image-20221205233624044.png)
 
 ![image-20221205233722029](https://gw.alipayobjects.com/zos/k/pake/assets/image-20221205233722029.png)
 
