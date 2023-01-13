@@ -17,22 +17,17 @@ Modify the app.csv file and replace the content after the second line with custo
 The format is: `Linux application name, Mac and Windows application name, Chinese character name, URL`, pay attention to use English commas to separate, and `the linux package name must be in lowercase or lowercase-lowercase format`.
 
 ### 4. Upload icon
+- Recommend https://icon-icons.com/ to generate .icns,.ico,.png icons.
+- Upload the .icns file to the `/src-tauri/icons` directory.
+- Upload the .ico and .png files to the `/src-tauri/png` directory.
 
-- Upload the .icns file to the `/src-tauri/icons` directory (required)
-- Upload the .ico and .png files to the `/src-tauri/png` directory (you can skip this step if you use the script to convert automatically)
-
-**Note: Two .ico files and one .png file are required, refer to the table below**
+**Note: Two .ico files and one .png file are required, refer to the table below, If not, the default will be used.**
 
 | File Name   | Description                        |
 | ----------- | ---------------------------------- |
 | app_32.ico  | A ico file with a size of 32\*32   |
 | app_256.ico | A ico file with a size of 256\*256 |
 | app_512.png | A png file with a size of 512\*512 |
-
-> You can also directly git the entire project to the local, and use the icns2png.py file in the project root directory to batch convert .icns files into .ico and .png files (.icns files are required)
->
-> Don't forget to upload the corresponding file after the conversion is complete
-
 
 ### 5. Advanced configuration
 You can find the file `src-tauri/tauri.conf.json`, these three fields can be modified.
@@ -44,7 +39,7 @@ You can find the file `src-tauri/tauri.conf.json`, these three fields can be mod
 
 - Click to go to the Releases page
 
-![image-20221205233722029](https://gw.alipayobjects.com/zos/k/pake/assets/image-20221205233722029.png)
+![image-20221205233722029](https://cdn.fliggy.com/upic/rkxpzA.png)
 
 - Click **Create a new release**
 
