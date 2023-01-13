@@ -33,11 +33,16 @@ The format is: `Linux application name, Mac and Windows application name, Chines
 >
 > Don't forget to upload the corresponding file after the conversion is complete
 
+
+### 5. Advanced configuration
+You can find the file `src-tauri/tauri.conf.json`, these three fields can be modified.
+1. transparent：If your page does not have the top title bar adaptation, it is recommended to change it to `false`, which will be normal.
+2. width：The width of the window is too long and too narrow, which can be modified.
+3. height：The height of the window is too long and too narrow, which can be modified.
+
 ### 5. Publish to start running automatic compilation
 
 - Click to go to the Releases page
-
-![image-20221205233624044](https://gw.alipayobjects.com/zos/k/pake/assets/image-20221205233624044.png)
 
 ![image-20221205233722029](https://gw.alipayobjects.com/zos/k/pake/assets/image-20221205233722029.png)
 
