@@ -44,7 +44,7 @@ You can find the file `src-tauri/tauri.conf.json`, these three fields can be mod
 - The first packaging speed is relatively slow, about 10-15 minutes (excluding aarch64 linux), subsequent packaging will directly use the previously packaged cache, so the speed will be much faster, about 5-10 minutes.
 - aarch64 linux uses docker and QEmu simulation, so the speed is extremely slow ([issues](https://github.com/uraimo/run-on-arch-action/issues/4)), the first packaging takes about 2 After half an hour, it can be reduced to about 1 hour due to caching.
 - If you want to close the online compilation of aarch64 linux, you can delete the line where `aarch64-linux` and subsequent codes are located in the `.github/workflows/pake_build_with_cache.yaml` file.
-- Finished product download method: Go to the `Release` interface, find the `Continuous build` on the top, and click `Asset` to expand.
+- Finished product download method: Go to the `Release` interface, find the `Continuous build` on the top, and click `Assets` to expand.
 ![image](https://user-images.githubusercontent.com/28218658/216824612-c781dcac-9a32-482f-9b4f-c11e78c3f0ef.png)
 ![image](https://user-images.githubusercontent.com/28218658/216824660-c95f9e42-c86f-41ff-bea2-671b2f3f8787.png)
 
