@@ -42,7 +42,7 @@
 - 第一次打包速度较慢，大概需要10-15分钟（不包含aarch64 linux），后续打包会直接使用之前打包好的缓存，所以速度会快很多，大概5-10分钟。
 - aarch64 linux由于采用了docker以及QEmu模拟，所以速度极慢（[issues](https://github.com/uraimo/run-on-arch-action/issues/4)），第一次打包大概需要2个半小时，之后由于缓存可以缩减到1小时左右。
 - 如果想要关闭aarch64 linux在线编译，可以将`.github/workflows/pake_build_with_cache.yaml`文件的`aarch64-linux`所在行以及后续代码删除。
-- 成品下载方法：前往`Release`界面，找到最上面的`Continuous build`，点击`Asset`展开即可。
+- 成品下载方法：前往`Release`界面，找到最上面的`Continuous build`，点击`Assets`展开即可。
 ![image](https://user-images.githubusercontent.com/28218658/216824612-c781dcac-9a32-482f-9b4f-c11e78c3f0ef.png)
 ![image](https://user-images.githubusercontent.com/28218658/216824660-c95f9e42-c86f-41ff-bea2-671b2f3f8787.png)
 
