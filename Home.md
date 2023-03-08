@@ -4,7 +4,7 @@
 
 - [Description of Pake's code structure](https://github.com/tw93/Pake/wiki/Description-of-Pake's-code-structure)
 
-- [GitHub Actions Online Compilation Multi system Version (Developer Recommended )](https://github.com/tw93/Pake/wiki/GitHub-Actions-Online-Compilation-Multi-system-Version)
+- [GitHub Actions Online Compilation Multi system Version (Developer Recommended )](https://github.com/tw93/Pake/wiki/GitHub-Actions-Online-Compilation-Multi-system-Version-(Developer-Recommended-))
 
 ------
 - [Pake 的高级用法](https://github.com/tw93/Pake/wiki/Pake-%E7%9A%84%E9%AB%98%E7%BA%A7%E7%94%A8%E6%B3%95)
