@@ -11,5 +11,5 @@
 
 - [Pake 的代码结构说明](https://github.com/tw93/Pake/wiki/Pake-%E7%9A%84%E4%BB%A3%E7%A0%81%E7%BB%93%E6%9E%84%E8%AF%B4%E6%98%8E)
 
-- [GitHub Actions 在线编译多系统版本（开发者使用）](https://github.com/tw93/Pake/wiki/%E5%9C%A8%E7%BA%BF%E7%BC%96%E8%AF%91%EF%BC%88%E5%BC%80%E5%8F%91%E8%80%85%E4%BD%BF%E7%94%A8%EF%BC%89)
+- [在线编译（开发者使用）](https://github.com/tw93/Pake/wiki/%E5%9C%A8%E7%BA%BF%E7%BC%96%E8%AF%91%EF%BC%88%E5%BC%80%E5%8F%91%E8%80%85%E4%BD%BF%E7%94%A8%EF%BC%89)
 
