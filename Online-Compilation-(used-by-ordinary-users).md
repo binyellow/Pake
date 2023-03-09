@@ -5,7 +5,7 @@
 ### 2. Go to Actions
 - Click to go to the Actions interface, select `Build App with Pake-Cli`, fill in the form information, and click `Run Workflow`.
 - The form parameters and filling requirements are basically consistent with the parameters of the pake-cli. For details, please refer to the pake-cli documentation, [link](https://github.com/tw93/Pake/blob/master/bin/README_EN.md#usage)
-![image](https://user-images.githubusercontent.com/28218658/223753696-0c5b51e3-8b75-4455-b9c3-d89216517daf.png)
+![image](https://user-images.githubusercontent.com/28218658/224034379-40d623ed-df91-4006-835d-ee852fcb55d4.png)
 
 ### 3. Download the attachment
 - If the small green icon appears, it means that the packaging is successful. You can click `Build App with Pake-Cli` to view the packaging details and attachments.
