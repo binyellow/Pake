@@ -11,7 +11,7 @@
 - If the small green icon appears, it means that the packaging is successful. You can click `Build App with Pake-Cli` to view the packaging details and attachments.
 ![image](https://user-images.githubusercontent.com/28218658/224034726-6d17f899-cc2e-46d9-ac5b-68a8b28f231c.png)
 - You can see that there is a 1 in `Artfacts` here, which means that there is an attachment available for download.
-![image](https://user-images.githubusercontent.com/28218658/223757384-10c8c2c5-d77c-4202-8572-668a2eca2e5f.png)
+![image](https://user-images.githubusercontent.com/28218658/224035345-1acc86c3-8dcd-414e-aa88-ddd96a183876.png)
 - Click `Artfacts`, it will automatically jump to the bottom, you can see the final attachment information, click the attachment name to download it officially.
 ![image](https://user-images.githubusercontent.com/28218658/223757788-08f9ce71-d2ae-49f8-b2a5-debbb9214bc2.png)
 
