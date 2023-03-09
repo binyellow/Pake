@@ -3,7 +3,7 @@
 [Click here](https://github.com/tw93/Pake/fork)
 
 ### 2. Go to Actions
-- Click to go to the Actions interface, select `build app With pake-cil`, fill in the form information, and click `Run Workflow`.
+- Click to go to the Actions interface, select `build app with pake-cil`, fill in the form information, and click `Run Workflow`.
 - The form parameters and filling requirements are basically consistent with the parameters of the pake-cli. For details, please refer to the pake-cli documentation, [link](https://github.com/tw93/Pake/blob/master/bin/README_EN.md#usage)
 ![image](https://user-images.githubusercontent.com/28218658/223753696-0c5b51e3-8b75-4455-b9c3-d89216517daf.png)
 
