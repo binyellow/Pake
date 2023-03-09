@@ -19,6 +19,6 @@
 ### 4. About running time (simple understanding is enough)
 - The first run will be relatively slow, about 10-15 minutes, after the subsequent cache, it will be much faster.
 - Try to ensure that the first run is complete, so that the generated cache can save a lot of time. If the run fails, the generated cache is incomplete, and the subsequent acceleration cannot be achieved.
-- You can view the cache on the page in the lower left corner of Actions, generally named `[Package Platform]-Cargo-xxxx`, generally between 400M-600M, if the cache is small, only tens of M, you can click the delete button on the right Delete the cache, then the next build will automatically generate a new cache instead.
-![image](https://user-images.githubusercontent.com/28218658/223755867-7ecd413f-c50b-47b7-9816-4071250f3c16.png)
+- You can view the cache on the page in the lower left corner of Actions, generally named `[Package Platform]-cargo-xxxx`, generally between 400M-600M, if the cache is small, only tens of M, you can click the delete button on the right Delete the cache, then the next build will automatically generate a new cache instead.
+![image](https://user-images.githubusercontent.com/28218658/224035969-39d331b4-f9aa-4104-b05a-36525b1b01d4.png)
 
