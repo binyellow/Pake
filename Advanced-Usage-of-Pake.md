@@ -1,6 +1,6 @@
 #### 1. How do I rewrite the style, e.g. to remove ads from the original site, or even redesign it?
 
-First, open devtools debug mode with `npm run dev:debug`. After that, find the name of the style you want to change and verify the effect in devtools, and find the location of the style in `pake.js` with `style.innerHTML`. Finally, add the style you need to override, there are some examples you can copy.
+First, open devtools debug mode with `npm run dev`. After that, find the name of the style you want to change and verify the effect in devtools, and find the location of the style in `pake.js` with `style.innerHTML`. Finally, add the style you need to override, there are some examples you can copy.
 
 #### 2. How to inject js code, e.g. to implement event listeners, e.g. keyboard shortcuts?
 
