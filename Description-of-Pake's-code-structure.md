@@ -19,7 +19,9 @@
 │   ├── png
 │   ├── src
 │   ├    ├──main.rs
-│   ├    └──pake.js
+│   ├    ├──app
+│   ├    └──inject
+│   ├── pake.json
 │   ├── tauri.conf.json
 │   ├── tauri.linux.conf.json
 │   ├── tauri.macos.conf.json
@@ -43,8 +45,8 @@
 - src-tauri/icons：A series of icon files in icns format are stored, which are suitable for MacOS application icons.
 - src-tauri/png：Generated from the icons folder above, it stores ico and png files, which are applicable to Linux/Windows application icons.
 - src-tauri/src/main.rs：The main program file needs to be modified. The cross platform migration scheme focuses on this.
-- src-tauri/src/pake.js：The js code matched with the main program file is used to add shortcut key monitoring, page rendering effects, and so on.
-- src-tauri/tauri.conf.json：The main configuration file is used to control the package name, version number, open link, window size, etc.
+- src-tauri/src/inject：The js code matched with the main program file is used to add shortcut key monitoring, page rendering effects, and so on.
+- src-tauri/pake.json：The main configuration file is used to control the package name, version number, open link, window size, etc.
 - src-tauri/tauri.linux.conf.json：The configuration file used when compiling the Linux platform, including Linux specific icons, maintainers, binary formats, mapping, etc.
 - src-tauri/tauri.macos.conf.json：Configuration files used for compiling the MacOS platform, including MacOS specific icons, maintainers, binary formats, and so on.
 - src-tauri/tauri.windows.conf.json：The configuration file used when compiling the Windows platform, including Windows specific icons, maintainers, binary formats, small icon mapping in the upper left corner, and so on.
