@@ -7,7 +7,7 @@
 
 #### 2. How to inject js code, e.g. to implement event listeners, e.g. keyboard shortcuts?
 
-Refer to the event listener in `src-tauri/src/inject/index.js` with `document.addEventListener`, and write it directly, it's more of a basic front-end technique here.
+Refer to the event listener in `src-tauri/src/inject/event.js` with `document.addEventListener`, and write it directly, it's more of a basic front-end technique here.
 [example](https://github.com/tw93/Pake/blob/master/src-tauri/src/inject/event.js)
 
 #### 3. How to communicate with Pake about events in containers, such as dragging and dropping, scrolling, special clicks on the Web, etc.?
