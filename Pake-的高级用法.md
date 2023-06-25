@@ -6,7 +6,7 @@
 
 #### 2. 如何注入 JS 的逻辑，比如实现事件监听，比如说键盘快捷键？
 
-参考 `src-tauri/src/inject/event.js` 中事件监听 `document.addEventListener`，直接编写即可，这里更多是基础前端的技术。
+参考 `src-tauri/src/inject/event.js` 中事件监听 `document.addEventListener`，直接编写即可，这里更多是基础前端的技术。[示例](https://github.com/tw93/Pake/blob/master/src-tauri/src/inject/event.js)
 
 #### 3. 如何进行容器内的事件和 Pake 通信，比如说 Web 的拖拽、滚动、特殊点击传递啥的？
 
