@@ -1,7 +1,7 @@
 #### 1. 如何改写样式，如去掉原站广告、不想要的模块、甚至重新设计？
 
-- 使用 npm run dev 启动右键打开 devtools 调试模式，找到你需要修改的样式名称，先在 devtools 里面验证效果。
-- 找到 src-tauri/src/inject/style.js 中样式位置 const css = "/* styles */"，将需要覆盖的样式写入到变量 css 中，你可以直接以该文件作为示例。
+- 使用 `npm run dev` 启动右键打开 `devtools` 调试模式，找到你需要修改的样式名称，先在 `devtools` 里面验证效果。
+- 找到 `src-tauri/src/inject/style.js` 中样式位置 `const css = "/* styles */"`，将需要覆盖的样式写入到变量 `css` 中，你可以直接以该文件作为示例。
 [示例](https://github.com/tw93/Pake/blob/master/src-tauri/src/inject/style.js)
 
 #### 2. 如何注入 JS 的逻辑，比如实现事件监听，比如说键盘快捷键？
