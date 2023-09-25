@@ -4,6 +4,8 @@
 
 - [Description of Pake's code structure](https://github.com/tw93/Pake/wiki/Description-of-Pake's-code-structure)
 
+- [Pake packaging static file example](https://github.com/tw93/Pake/wiki/Pake-packaging-static-file-example)
+
 - [Online Compilation (Developer Recommended)](https://github.com/tw93/Pake/wiki/Online-Compilation-(Developer-Recommended))
 
 - [Online Compilation (used by ordinary users)](https://github.com/tw93/Pake/wiki/Online-Compilation-(used-by-ordinary-users))
